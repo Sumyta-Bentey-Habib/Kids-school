@@ -168,3 +168,109 @@ nav {
     margin-top: 1rem;
   }
 }
+/* Second Section */
+.standard-curriculum{
+    background-image: url('./assets/bg.png');
+}
+.standard-curriculum h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Cards Section Container */
+.cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-01, .card-02, .card-03 {
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-01 img, .card-02 img, .card-03 img {
+    width:136px;
+    height:136px;
+    margin-bottom: 15px;
+  }
+  
+  .card-01 h4, .card-02 h4, .card-03 h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24.52px;
+    color: #202020;
+  }
+  
+  .card-01 p, .card-02 p, .card-03 p {
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 10px;
+  }
+  
+  .card-01-readmore {
+    font-size: 14px;
+    color:rgb(100, 200, 255);
+    cursor: pointer;
+  }
+  
+  .card-02-readmore {
+    font-size: 14px;
+    color: rgb(240, 170, 0);
+    cursor: pointer;
+  }
+  
+  .card-03-readmore {
+    font-size: 14px;
+    color: rgb(135, 0, 255);
+    cursor: pointer;
+  }
+  .card-01 {
+    background: linear-gradient(rgb(222, 245, 255), rgba(255, 255, 255, 0));
+  }
+  
+  .card-02 {
+    background: linear-gradient(rgb(255, 244, 220), rgba(255, 255, 255, 0));
+  }
+  
+  .card-03 {
+    background: linear-gradient(rgb(238, 225, 255), rgba(255, 255, 255, 0));
+  }
+  
+  @media (max-width: 768px) {
+    .cards-section {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    .card-01, .card-02, .card-03 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .card-01 img, .card-02 img, .card-03 img {
+      margin-bottom: 15px;
+    }
+  
+    .card-01 h4, .card-02 h4, .card-03 h4 {
+      font-size: 1.25rem;
+    }
+  
+    .card-01 p, .card-02 p, .card-03 p {
+      font-size: 12px;
+    }
+  }
+  
