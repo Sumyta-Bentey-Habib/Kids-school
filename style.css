@@ -89,7 +89,7 @@ nav {
 }
 
 @media (max-width: 768px) {
-  .nav-links, .btn-nav,h2 {
+  .nav-links, .btn-nav,h3 {
     display: none;
   }
 
@@ -158,6 +158,11 @@ nav {
 }
 
 @media (max-width: 768px) {
+  .header-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .hero-section {
     flex-direction: column; 
     text-align: center; 
@@ -173,10 +178,12 @@ nav {
 
   .btn-enroll {
     order: 3;  
+    width: auto;
+    height: auto;
     display: flex;
-    align-self: center;
-    justify-items: center;
-    margin-top: 1rem;
+   justify-content: center;
+   align-items: center;
+    /* margin-top: 1rem; */
   }
 }
 /* Second Section */
@@ -273,6 +280,10 @@ nav {
   margin: 0 1vw; 
 }
   @media (max-width: 768px) {
+    h2 {
+      display: block; 
+      font-size: 1.5rem;  /* Optional: Adjust size for mobile */
+    }
     .cards-section {
       flex-direction: column;
       justify-content: flex-start;
@@ -357,6 +368,10 @@ nav {
   margin: 20px auto;
  }
 @media (max-width: 768px) {
+  h2 {
+    display: block; 
+    font-size: 1.5rem;  /* Optional: Adjust size for mobile */
+  }
 .third-section{
   align-items: center;
   justify-content: center;
