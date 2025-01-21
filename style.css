@@ -89,7 +89,7 @@ nav {
 }
 
 @media (max-width: 768px) {
-  .nav-links, .btn-nav, h3 {
+  .nav-links, .btn-nav,h2 {
     display: none;
   }
 
@@ -174,8 +174,8 @@ nav {
   .btn-enroll {
     order: 3;  
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-self: center;
+    justify-items: center;
     margin-top: 1rem;
   }
 }
@@ -183,8 +183,6 @@ nav {
 .second-section{
     background-image: url('./assets/bg.png');
 }
-
-
 .cards-section {
     display: flex;
     justify-content: center;
