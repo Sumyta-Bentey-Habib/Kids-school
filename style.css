@@ -89,7 +89,10 @@ nav {
 }
 
 @media (max-width: 768px) {
-  .nav-links, .btn-nav,h3 {
+  nav h2{
+    visibility: hidden;
+  }
+  .nav-links, .btn-nav {
     display: none;
   }
 
@@ -105,11 +108,13 @@ nav {
   nav {
     padding: 1rem;
   }
-  .line {
-    border-top: 2px solid black; /* Creates a line on top of the element */
+    nav{
+      
+      border-bottom: 1px solid #FEA301;
+    }
 }
 
-}
+
 
 /* Hero Section */
 .hero-section {
@@ -178,12 +183,9 @@ nav {
 
   .btn-enroll {
     order: 3;  
-    width: auto;
-    height: auto;
     display: flex;
-   justify-content: center;
-   align-items: center;
-    /* margin-top: 1rem; */
+    justify-content: center;
+    align-items: center;
   }
 }
 /* Second Section */
@@ -282,7 +284,7 @@ nav {
   @media (max-width: 768px) {
     h2 {
       display: block; 
-      font-size: 1.5rem;  /* Optional: Adjust size for mobile */
+      font-size: 1.5rem;  
     }
     .cards-section {
       flex-direction: column;
@@ -313,8 +315,9 @@ nav {
   /* Our Stories */
   .third-section{
     background-image: url('./assets/bg.png');
-    background-color:linear-gradient(to bottom , rgba(254, 163, 1, 0.3)
-    rgba(255, 255, 255, 0.3));;
+    background:linear-gradient( rgba(254, 163, 1, 0.3)
+    rgba(255, 255, 255, 0.3));
+
   }
   .image-section{
     display: flex;
@@ -353,7 +356,8 @@ nav {
     background-color: #5D58F0;
   }
   .btn-date{
-    margin-top: -40px;
+    position: relative;
+    margin-top: -50px;
   }
  .btn-viewall{
   display: flex;
@@ -370,7 +374,7 @@ nav {
 @media (max-width: 768px) {
   h2 {
     display: block; 
-    font-size: 1.5rem;  /* Optional: Adjust size for mobile */
+    font-size: 1.5rem;  
   }
 .third-section{
   align-items: center;
@@ -502,5 +506,3 @@ footer {
 }
 
   
-
-
