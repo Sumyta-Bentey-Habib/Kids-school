@@ -384,7 +384,12 @@ nav {
       display: none;
   }
   .multiple-image-card {
-      grid-template-columns: repeat(2,1fr); 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 16px; 
+  width: 100%; 
+  box-sizing: border-box; 
+  overflow-x: hidden;
   }
 
   .square-image-01, .square-image-02, .square-image-03, .square-image-04 {
